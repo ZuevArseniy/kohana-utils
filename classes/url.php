@@ -1,9 +1,10 @@
-<?php
+<?php defined('SYSPATH') or die('No direct script access.');
 
     class URL extends Kohana_URL {
         /**
          * A method to creates a friendly url from russian titles
          * Consider to use it as a ORM filter and store the value in the DB
+         *
          * @param        $string
          * @param string $delimiter
          *
